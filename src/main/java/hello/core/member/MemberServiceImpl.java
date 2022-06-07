@@ -2,6 +2,7 @@ package hello.core.member;
 
 public class MemberServiceImpl implements MemberService {
 
+    //추상화에도 의존 구현화에도 의존 DIP위반
     private MemberRepository memberRepository = new MemoryMemberRepository();
 
     @Override
